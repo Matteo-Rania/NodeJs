@@ -1,6 +1,6 @@
 const figlet = require('figlet');
 
-figlet.text('Esercizio 7', {
+figlet.text('Esercizio-7', {
     font: 'Ghost',
     horizontalLayout: 'default',
     verticalLayout: 'default',
