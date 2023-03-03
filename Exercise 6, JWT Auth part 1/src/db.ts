@@ -23,7 +23,7 @@ const db = pgPromise()("postgres://postgres:postgres@localhost:5432/video");
     `);
     await db.none(`INSERT INTO planets (name) VALUES ('Earth');`);
     await db.none(`INSERT INTO planets (name) VALUES ('Mars');`);
-    await db.none(`INSERT INTO users (username, password) VALUES ('dummy', 'npdummy');`);
+    await db.none(`INSERT INTO users (username, password) VALUES ('dummy', 'dummy');`);
   };
   
   setupDb();
